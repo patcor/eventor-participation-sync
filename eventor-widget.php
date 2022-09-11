@@ -20,8 +20,6 @@ function eventor_init()
 }
 add_action('init', 'eventor_init');
 
-//
-// // Creating the widget
 class eventor_widget extends WP_Widget
 {
 
@@ -34,8 +32,6 @@ class eventor_widget extends WP_Widget
         ));
     }
 
-    // Creating widget front-end
-    // This is where the action happens
     public function widget($args, $instance)
     {
         $title = apply_filters('widget_title', $instance['title']);
