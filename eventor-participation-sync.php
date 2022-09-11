@@ -2,12 +2,12 @@
 /*
  * Plugin Name: Eventor Participation Sync
  * Version: 1.0
- * Plugin URI: http://www.okloftan.se
+ * Plugin URI: https://github.com/patcor/eventor-participation-sync
  * Description: Fetches the clubs participations in events
  * Author: OK Löftan
  * Author URI: http://www.okloftan.se
  * Requires at least: 4.0
- * Tested up to: 4.0
+ * Tested up to: 6.0
  *
  * Text Domain: okloftan
  *
