@@ -18,3 +18,6 @@ Advanced custom fields
    - Enter the Organization id from Eventor (can be found https://eventor.orientering.se/OrganisationAdmin/Settings), hover over "edit clubhouse link" to see the id.
    - Enter the three text fields from the custom fields configuration
    
+# Example
+
+![Example image](https://github.com/patcor/eventor-participation-sync/blob/main/example.png?raw=true)
