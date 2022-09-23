@@ -27,7 +27,7 @@ class EventorParticipationSyncPlugin
 
         $baseUrl = "https://eventor.orientering.se/api/";
         $ch = curl_init();
-        $fromdate = date('Y-m-d', strtotime("-5 days", strtotime(date("Y-m-d"))));
+        $fromdate = date('Y-m-d', strtotime("-3 days", strtotime(date("Y-m-d"))));
         $todate = date('Y-m-d', strtotime("+3 months", strtotime(date("Y-m-d"))));
 
         curl_setopt($ch, CURLOPT_URL, $baseUrl . "entries?organisationIds=" . get_option('eventor_organization_id') . "&fromEventDate=" . $fromdate . "&toEventDate=" . $todate . "&includePersonElement=true&includeEventElement=true");
