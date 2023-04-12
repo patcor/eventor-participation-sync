@@ -58,7 +58,7 @@ class EventorParticipationSyncPlugin
         {
 
             $my_post = array(
-                'post_title' => wp_strip_all_tags($value["name"]) ,
+                'post_title' => strip_tags( $value["name"] ) ,
                 'post_content' => '',
                 'post_type' => 'eventor-posts',
                 'post_status' => 'publish'
